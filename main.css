@@ -15,3 +15,14 @@ a:active {
 a:visited {
     color: lightgray;
 }
+
+table,
+tr,
+th,
+td,
+caption {
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #eee;
+    padding: 0.5rem;
+}

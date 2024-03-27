@@ -12,70 +12,133 @@
 <body>
     <h1>Information about computer details</h1>
 
-    <hr>
-    <nav>
-        <h2>Website Navigation</h2>
+    <nav aria-labelledby="other-info">
+        <h2 id="other-info">More Information</h2>
         <ul>
             <li><a href="ProcessorsInfoPage.html" target="_blank">Processors Information</a></li>
             <li><a href="GraphicsCardsInfoPage.html" target="_blank">GPU Information</a></li>
             <li><a href="RAMinfo.html" target="_blank">RAM Information</a></li>
         </ul>
     </nav>
-    <hr>
 
-    <p><strong>A computer</strong> is a machine that can be programmed to automatically carry out sequences of
-        <i>arithmetic or logical operations (computation)</i>. Modern digital electronic computers can perform generic
-        sets of operations
-        known as programs. These programs enable computers to perform a wide range of tasks. The term computer system
-        may refer
-        to a <em>nominally complete computer that includes the hardware, operating system, software, and peripheral
-            equipment</em> needed and used for full operation; or to a group of computers that are linked and function
-        together, such as a computer network or computer cluster.
-    </p>
-
-    <a href="images/computer2.png" target="_blank"><img src="images/computer2.png" alt="Computer Photo" width="25%"
-            height="25%"></a>
-
-    <hr>
-
-    <h3>Computer Details</h3>
-
-    <ol>
-        <li>Graphics Card</li>
-        <li>Processor</li>
-        <li>Motherboard</li>
-        <li>RAM</li>
-        <li>HDD and SSD</li>
-        <li>Power Unit</li>
-    </ol>
-
-    <a href="images/GPU.png" target="_blank"><img src="images/GPU.png" alt="Graphics Card Photo" width="30%"
-            height="30%"></a>
-
-    <a href="images/cpu.png" target="_blank"><img src="images/cpu.png" alt="Processor Photo" width="15%"
-            height="15%"></a>
+    <nav aria-labelledby="website-navigation">
+        <h2 id="website-navigation">Website Navigation</h2>
+        <ul>
+            <li>
+                <a href="#Basic-Info">Basic Information</a>
+            </li>
+            <li>
+                <a href="#Computer-Details">Computer Details</a>
+            </li>
+            <li>
+                <a href="#Computer-Basics">Computer Basics</a>
+            </li>
+            <li>
+                <a href="#Output-Devices">Output Devices</a>
+            </li>
+        </ul>
+    </nav>
 
     <hr>
 
-    <h3>Computer Basics</h3>
+    <article id="Basic-Info">
+        <h3>Basic Information About Computers</h3>
 
-    <p>The first computers were used primarily for numerical calculations. However, as any information can be
-        numerically encoded, people soon realized that computers are capable of general-purpose information processing.
-        Their capacity to handle large amounts of data has extended the range and accuracy of weather forecasting. Their
-        speed has allowed them to make decisions about routing telephone connections through a network and to control
-        mechanical systems such as automobiles, nuclear reactors, and robotic surgical tools. They are also cheap enough
-        to be embedded in everyday appliances and to make clothes dryers and rice cookers “smart.” Computers have
-        allowed us to pose and answer questions that could not be pursued before. These questions might be about DNA
-        sequences in genes, patterns of activity in a consumer market, or all the uses of a word in texts that have been
-        stored in a database. Increasingly, computers can also learn and adapt as they operate.</p>
+        <p><strong>A computer</strong> is a machine that can be programmed to automatically carry out sequences of
+            <i>arithmetic or logical operations (computation)</i>. Modern digital electronic computers can perform
+            generic
+            sets of operations
+            known as programs. These programs enable computers to perform a wide range of tasks. The term computer
+            system
+            may refer
+            to a <em>nominally complete computer that includes the hardware, operating system, software, and peripheral
+                equipment</em> needed and used for full operation; or to a group of computers that are linked and
+            function
+            together, such as a computer network or computer cluster.
+        </p>
 
-    <a href="images/firstComputer.jpg" target="_blank"><img src="images/firstComputer.jpg"
-            alt="Photo of a First Computer"></a>
+        <a href="images/computer2.png" target="_blank"><img src="images/computer2.png" alt="Computer Photo"
+                width="400px"></a>
+
+    </article>
 
     <hr>
 
-    <h3>Output Devices</h3>
+    <article id="Computer-Details">
+        <h3>Computer Details</h3>
 
+        <ol>
+            <li>Graphics Card</li>
+            <li>Processor</li>
+            <li>Motherboard</li>
+            <li>RAM</li>
+            <li>HDD and SSD</li>
+            <li>Power Unit</li>
+        </ol>
+
+        <a href="images/GPU.png" target="_blank"><img src="images/GPU.png" alt="Graphics Card Photo" width="700px"></a>
+
+        <a href="images/cpu.png" target="_blank"><img src="images/cpu.png" alt="Processor Photo" width="300px"></a>
+    </article>
+    <hr>
+    <article id="Computer-Basics">
+        <h3>Computer Basics</h3>
+
+        <p>The first computers were used primarily for numerical calculations. However, as any information can be
+            numerically encoded, people soon realized that computers are capable of general-purpose information
+            processing.
+            Their capacity to handle large amounts of data has extended the range and accuracy of weather forecasting.
+            Their
+            speed has allowed them to make decisions about routing telephone connections through a network and to
+            control
+            mechanical systems such as automobiles, nuclear reactors, and robotic surgical tools. They are also cheap
+            enough
+            to be embedded in everyday appliances and to make clothes dryers and rice cookers “smart.” Computers have
+            allowed us to pose and answer questions that could not be pursued before. These questions might be about DNA
+            sequences in genes, patterns of activity in a consumer market, or all the uses of a word in texts that have
+            been
+            stored in a database. Increasingly, computers can also learn and adapt as they operate.</p>
+
+        <a href="images/firstComputer.jpg" target="_blank"><img src="images/firstComputer.jpg"
+                alt="Photo of a First Computer"></a>
+    </article>
+    <hr>
+    <article id="Output-Devices">
+        <h3>Output Devices</h3>
+
+        <br>
+
+        <table>
+            <caption>Most Commonly Used Output Devices</caption>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Used For</th>
+                <th>Popular Brands</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <th>Mouse</th>
+                <td>Controlling Your PC</td>
+                <td>Razer, Logitech</td>
+                <td><img src="images/mouse.png" alt="Computer Mouse Image" width="100px"></td>
+            </tr>
+
+            <tr>
+                <th>Monitor</th>
+                <td>Image Output</td>
+                <td>ROG, Razer</td>
+                <td><img src="images/monitor.png" alt="Monitor Image" width="100px"></td>
+            </tr>
+            <tr>
+                <th>Keyboard</th>
+                <td>Typing and Controlling PC</td>
+                <td>HP, Dell</td>
+                <td><img src="images/keyboard.png" alt="Keyboard Image" width="100px"></td>
+            </tr>
+        </table>
+    </article>
+
+    <p><a href="#">Back To Top</a></p>
 </body>
 
 </html>
