@@ -7,11 +7,27 @@
     <meta name="author" content="Pavlo Husiatynskyi">
     <title>Processors</title>
     <link rel="stylesheet" href="main.css">
+
+    <style>
+        .homeLink {
+            color: aqua;
+        }
+
+        .homeLink:hover,
+        .homeLink:active {
+            color: aquamarine;
+        }
+
+        .homeLink:visited {
+            color: azure;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Processors info</h1>
-    <p>Processors tell everything from your graphics processing unit (GPU) to your disk drives and screens what to do.
+    <h1 class="alignCenter">Processors info</h1>
+    <p class="alignCenter">Processors tell everything from your graphics processing unit (GPU) to your disk drives and
+        screens what to do.
         Intel and AMD are some of the most common manufacturers, and they each have different series of processors. In
         general, the higher the number in the series, the more power you'll have for processing tasks.</p>
 
@@ -58,6 +74,22 @@
 
     <hr>
 
+    <h3>Main Characteristics</h3>
+
+    <dl>
+        <dt>Clock Speed</dt>
+        <dd>The clock speed of a processor, which is specified in megahertz (MHz) or gigahertz (GHz), determines its
+            performance, but clock speeds are meaningless across processor lines.</dd>
+        <dt>Host-bus speed</dt>
+        <dd>The host-bus speed, also called the front-side bus speed, FSB speed, or simply FSB, specifies the data
+            transfer rate between the processor and the chipset.</dd>
+        <dt>Cache Size</dt>
+        <dd>Processors use two types of cache memory to improve performance by buffering transfers between the processor
+            and relatively slow main memory.</dd>
+    </dl>
+
+    <hr>
+
     <table>
         <colgroup>
             <col span="1" style="background-color: gray;">
@@ -85,7 +117,7 @@
 
     <br>
 
-    <p><a href="/">Back To Home</a></p>
+    <p><a href="/" class="homeLink">Back To Home</a></p>
 
 </body>
 
