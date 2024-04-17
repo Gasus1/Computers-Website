@@ -10,6 +10,19 @@ p {
     line-height: 1.5;
 }
 
+p strong {
+    font-size: 26px;
+    color: cadetblue;
+}
+
+h1+p {
+    font-weight: bold;
+}
+
+ul>li {
+    list-style-type: circle;
+}
+
 .alignCenter {
     text-align: center;
 }
