@@ -64,3 +64,21 @@ dd {
     margin: 12px;
     padding: 12px;
 }
+
+
+.left-column {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 15px;
+}
+
+.right-column {
+    float: right;
+    width: 50%;
+}
+
+ul>li:first-child {
+    color: red;
+    font-weight: bold;
+}
