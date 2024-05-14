@@ -82,3 +82,11 @@ ul>li:first-child {
     color: red;
     font-weight: bold;
 }
+
+.pseudo-elements::after {
+    content: "New Content after! ";
+}
+
+.pseudo-elements::before {
+    content: " New Content before!";
+}
